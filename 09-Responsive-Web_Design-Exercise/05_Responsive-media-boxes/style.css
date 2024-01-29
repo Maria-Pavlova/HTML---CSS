@@ -1,0 +1,75 @@
+@import url(responsive.css);
+
+body {
+    background-color: rgb(238, 238, 238);
+   
+}
+
+.card {
+    display: block;
+    background-color: rgb(255, 255, 255);
+    width: 20em;
+    margin: 0 auto;
+    position: relative;
+   padding-bottom:35px;
+    border-radius: 0.3em;
+    overflow: hidden;
+}
+
+.card .content {
+    padding: 1em;
+    
+}
+
+button {
+    background-color: rgb(0, 153, 0);
+    border: 1px solid rgb(0, 153, 0);
+    text-align: center;
+    width: 90px;
+    height: 30px;
+    border-radius: 0.3em;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.card h3{
+    font: 1em/1.2 Georgia, serif ;
+    font-weight: 600;
+}
+
+.card h3, .card p {
+    margin: 0.3em;
+}
+
+.media {
+    position: relative;
+    background: red;
+    overflow: hidden;
+}
+
+.media .after {
+    padding-top: 56.25%;
+}
+
+.card img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+.media img {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+
+}

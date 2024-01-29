@@ -1,0 +1,204 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans|PT+Seri);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 12px;
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+body {
+    background-image: url(image/fitness-main.jpg);
+    background-size: contain;
+    background-position: center -70px;
+    background-color: black;
+    background-repeat: no-repeat;
+}
+
+/* _______________________________________ */
+
+.container {
+    max-width: 1200px;
+    margin: 0, auto;
+}
+
+.top-bar {
+    background: #D01919;
+    color: white;
+}
+
+.top-bar .container {
+    display: flex;
+    font-size: 10px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5em 3em;
+    max-width: initial;
+}
+
+.socials {
+    display: flex;
+  
+}
+
+.socials li{
+    display: block;
+}
+
+.socials i {
+    padding: 0.3em;
+    color: white;
+}
+
+/* ____________________________________________________ */
+
+.section-header {
+   
+    color: white;
+}
+.section-header a {
+    color: white;
+    text-decoration: none;
+}
+
+.section-header .container {
+    display: flex;
+    justify-content: flex-end;
+    max-width: initial;
+}
+
+.main-nav ul {
+    display: flex;
+}
+
+.main-nav li {
+    display: block;
+}
+
+.main-nav a {
+    display: block;
+    padding: 0.5em 1em;
+}
+
+/* ____________________________________________ */
+
+.section-hero-banner {
+   
+    color: white;
+
+}
+
+.section-hero-banner .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4em 2em;
+    height: 22em;
+}
+
+.section-hero-banner .container p {
+    max-width: 54ch;
+    text-align: center;
+    padding-bottom: 2em;
+   
+}
+
+h1 {
+    padding-bottom: 1em;
+    letter-spacing: 0.2em;
+}
+
+.section-hero-banner a {
+    background: #D01919;
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+}
+
+/* __________________________________________________ */
+
+
+.section-columns {
+    text-align: center;
+}
+
+.section-content {
+    display: flex;
+    gap: 4em;
+}
+
+
+
+.section-columns p {
+    padding-bottom: 4em;
+}
+
+section {
+    flex: 1 1 20%;
+    text-align: center;
+    padding: 0 3em;
+}
+
+img.icons{
+    width: 15%;
+}
+
+h2 {
+    padding: 1.5em;
+
+}
+
+.section-columns h2::after {
+    display: block;
+    content: '';
+    background: #D01919;
+    width: 3ch;
+    height: 2px;
+    margin: 1em auto;
+}
+
+
+.section-wellcome {
+    background: white;
+    padding: 0 2em;
+}
+
+.section-wellcome h4 {
+    color: #D43538;
+    padding: 1em;
+}
+
+.section-coaches {
+    background: #EFEFEF;
+    padding: 0 2em;
+}
+
+.section-coaches h5 {
+    color: #D43538;
+    padding: 1em;
+}
+
+.section-coaches p {
+    color: #A6A1A5;
+}
+
+.section-coaches img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1em;
+    overflow: hidden;
+    border-radius: 0.3em;
+   
+}
+.section-footer {
+    background: #D01919;
+    text-align: center;
+    padding: 0.5em 0;
+}

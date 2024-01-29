@@ -1,0 +1,41 @@
+body {
+    font-family:  Helvetica, sans-serif;
+    background-color:  rgb(238, 238, 238);
+}
+
+header section{
+    /* display: inline-block; */
+    /* position: relative; */
+    width: 66%;
+    
+}
+h1, h2 {
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+aside {
+    width: 33%;
+    margin: 20px 0;
+   position: absolute;
+   top: 0;
+   right: 0;
+}
+
+ .main-section{
+    width: 66%;  
+}
+
+article {
+    color : rgb(51, 51, 51);
+    font-size: 14px;
+    padding: 20px;
+    
+
+}
+
+img {
+    width: 50%;
+    height: auto;
+}
+

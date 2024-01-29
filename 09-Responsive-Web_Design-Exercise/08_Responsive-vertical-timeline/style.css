@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 1em;
+}
+
+.timeline {
+    border: 0.3rem solid rgb(153, 153, 153);
+    padding: 1em;
+    position: relative;
+    overflow: hidden;
+}
+
+.timeline::before {
+    display: block;
+    content: '';
+    width: 0.5em;
+    height: 100%;
+    background: rgb(153, 153, 153);
+    position: absolute;
+    top: 2em;
+    left: 1.5em;
+}
+
+.timeline > header {
+    margin: 1em auto;
+    
+}
+
+.timeline > header h2{
+    border: 1px solid rgb(153, 153, 153);
+    font-size: 12px;
+    padding: 0.5em 1em;
+    position: relative;
+    background: white;
+    text-align: center;
+}
+
+.timeline .event {
+    padding-bottom: 0;
+    padding-left: 3em;
+    margin-top: 0;
+    position: relative;
+}
+
+.timeline .event::before {
+    display: block;
+    content: '';
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 50%;
+    background: green;
+    border: 2px solid rgb(153, 153, 153);;
+    position: absolute;
+    top: 0;
+    left: 0;
+} 
+
+h3 {
+    font-style: italic;
+   padding-bottom: 0.5em;
+}
+
+.event p {
+    padding-bottom: 1.5em;
+}
+
+@media (min-width: 600px) {
+    /* .timeline .event::before:nth-child(odd) {
+    left: calc(50% - 6em);
+    } */
+
+    .timeline .event{
+        width: 50%;
+    }
+
+    .timeline .event:nth-child(even) {
+        margin-left:  calc(50% - 0.85em);
+        
+    }
+
+    .timeline .event:nth-child(odd) {
+        padding-left: 0.5em;
+        padding-right: 3em;
+        text-align: right;
+    }
+
+    .timeline .event:nth-child(odd)::before {
+        left: inherit;
+        right: -0.85em;
+        background: orange;
+    }
+
+    .timeline::before {
+        left: calc(50% - 0.25em);
+    }
+
+    .timeline > header {
+        margin: 1em auto;
+        width: 50%;
+        
+    }
+
+    .timeline .event + .event {
+        margin-top: -2em;
+    }
+}

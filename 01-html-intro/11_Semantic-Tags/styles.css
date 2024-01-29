@@ -1,0 +1,18 @@
+header, footer{
+    background-color: #f2dcbb;
+    /* padding: 8px;
+    margin: 25px 15px 0px 15px; */
+    margin-left: 20 px;
+    padding: 15px 5px 15px;
+}
+
+.wrapper{
+    background-color: #f9f7cf;
+    width: 480px;
+    padding: 15px 5px 15px;
+
+}
+
+main{
+    margin-left: 20px;
+}

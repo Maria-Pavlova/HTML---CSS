@@ -1,0 +1,6 @@
+
+
+span:nth-child(2n+1){
+    background-color: red;
+    color: white;
+}

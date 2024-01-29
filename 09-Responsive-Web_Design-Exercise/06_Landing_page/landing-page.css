@@ -1,0 +1,162 @@
+@import url(reset.css);
+@import url(typography.css);
+
+body {
+    padding: 2em;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    min-width: 90 vw;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    padding: 0.5em 1em;
+    text-decoration: none;
+    color: black;
+}
+
+h2 {
+    color: rgb(167, 12, 136);
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.header-title {
+    padding: 2em;
+}
+
+.site {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+main {
+    /* display: flex; */
+    flex: 1 1 auto;
+}
+
+.need-site {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3em;
+    padding-bottom: 3em;
+}
+
+.need-site-text {
+    flex: 1 1 50%;
+    padding-left: 6em;
+}
+
+.need-site button a {
+    text-decoration: none;
+    color: black;
+    background: white;
+    padding: 0.2em;
+}
+.need-site-icon {
+    flex: 1 1 30%;
+}
+
+.team {
+    text-align: center;
+}
+
+.team h3 {
+
+    padding-bottom: 1em;
+    text-decoration-line:underline;
+}
+
+.team ul {
+    max-width: 60em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+
+.team ul li {
+    display: block;
+    flex: 1 1 25%;
+    padding-left: 3em;
+
+}
+
+
+.team ul li p:nth-child(2) {
+    padding-bottom: 0;
+}
+
+img {
+  width: 50%;
+  height: auto;
+  border-radius: 50%;
+  display: block;
+  margin: 0.5em auto;
+ 
+  
+}
+
+.Sign-up {
+    background-color: rgb(167, 12, 136);
+    flex: 1 1 100%;
+    padding: 3em;
+    color: white;
+    margin-bottom: 2em;
+}
+
+footer {
+    flex: 1 1 100%;
+    display: flex;
+    border-top: 2px solid lightgray;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2em 4%;
+   
+}
+
+footer .footer-main {
+    flex: 1 1 30%;
+}
+
+footer .links ul {
+    list-style-type: none;
+    flex: 1 1 25%;
+  
+    
+}
+
+footer .links {
+    flex: 1 1 30%;
+}
+
+ footer .links ul li a {
+    text-decoration: none;
+    color: black;
+
+ }
+
+ .footer-contacts p {
+    padding-bottom: 0;
+ }
